@@ -24,17 +24,23 @@ export default function Navbar() {
                         Home
                     </Link>
                     {/* Inactive links use Neutral #73787A */}
-                    <Link href="/about" className="text-[#73787A] font-medium hover:text-[#23395D] transition-colors">
-                        About
-                    </Link>
-                    <Link href="/prayer-times" className="text-[#73787A] font-medium hover:text-[#23395D] transition-colors">
+                    {/* <Link href="/prayer-times" className="text-[#73787A] font-medium hover:text-[#23395D] transition-colors">
                         Prayer Times
-                    </Link>
-                    <Link href="/guidance" className="text-[#73787A] font-medium hover:text-[#23395D] transition-colors">
+                    </Link> */}
+                    {/* <Link href="/guidance" className="text-[#73787A] font-medium hover:text-[#23395D] transition-colors">
                         Guidance
+                    </Link> */}
+                    <Link href="/discussion-forms" className="text-[#73787A] font-medium hover:text-[#23395D] transition-colors">
+                        Discussion Forms
                     </Link>
                     <Link href="/events" className="text-[#73787A] font-medium hover:text-[#23395D] transition-colors">
                         Events
+                    </Link>
+                    <Link href="/donation" className="text-[#73787A] font-medium hover:text-[#23395D] transition-colors">
+                        Donations
+                    </Link>
+                    <Link href="/about" className="text-[#73787A] font-medium hover:text-[#23395D] transition-colors">
+                        About
                     </Link>
                 </nav>
                 
