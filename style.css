@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width:100%;
+    background-color: rgb(22, 152, 152);
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%,);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+
+
+}
+.navbar{
+    width: 1200px;
+    height:75px;
+    margin:auto;
+
+}
+.icon{
+    width: 200px;
+    float:left;
+    height: 1000px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap:24px;
+    color:rgb(156, 2, 2);
+    font-size: 35px;
+    font-family: Montserrat;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.Mlogo{
+    width: 60px;           
+    height: auto
+}
+.menu{
+    width: 400px;
+    float:left;
+    height: 70px;
+
+}
+
+ul{
+    float:left;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(156, 2, 2);
+    font-family: Montserrat;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color:white;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.srch{
+    font-family: Montserrat;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid rgb(156, 5, 5);
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+
+
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: red;
+    border: 2px solid red;
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
