@@ -14,6 +14,7 @@ export default function Footer() {
                             alt="MSAA Logo" 
                             width={40} 
                             height={40} 
+                            style={{ width: 'auto', height: 'auto' }}
                         />
                         <span className="text-xl font-bold tracking-wide text-[#23395d]">MSAA</span>
                     </Link>
