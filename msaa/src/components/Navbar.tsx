@@ -24,7 +24,7 @@ export default async function Navbar() {
                 {/* Center Navigation Links */}
                 <nav className="hidden md:flex items-center gap-8">
                     <Link href="/" className="text-[#0891B2] font-semibold">Home</Link>
-                    <Link href="/discussion-forms" className="text-[#73787A] font-medium hover:text-[#23395D] transition-colors">Discussion Forms</Link>
+                    <Link href="/discussion-forum" className="text-[#73787A] font-medium hover:text-[#23395D] transition-colors">Discussion Forum</Link>
                     <Link href="/events" className="text-[#73787A] font-medium hover:text-[#23395D] transition-colors">Events</Link>
                     <Link href="/donation" className="text-[#73787A] font-medium hover:text-[#23395D] transition-colors">Donations</Link>
                     <Link href="/about" className="text-[#73787A] font-medium hover:text-[#23395D] transition-colors">About</Link>

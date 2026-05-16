@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { prisma } from "@/lib/prisma";
-import PrayerGrid from "@/components/PrayerGrid"; // Ensure this path matches where you saved the Client Component
+import PrayerGrid from "@/components/PrayerGrid"; 
 
 interface PrayerTimings {
   Fajr: string;
